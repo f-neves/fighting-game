@@ -1,4 +1,4 @@
-function determineWinner ({play,enemy, timerId}){
+function determineWinner ({player,enemy, timerId}){
     clearTimeout (timerId)
     document.querySelector('#displayText').style.display='flex'
     if (player.health === enemy.health) {
