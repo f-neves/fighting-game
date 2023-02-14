@@ -1,8 +1,10 @@
 <head>
+    <title>Kombat Mortal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="style.css">
     <!-- the * indicates that this style will be applied in every element -->
     <style>
         *{
@@ -13,7 +15,8 @@
 </head>
 
 <body>
-    <!-- red conteiner div -->
+
+    <!-- red container div -->
     <div style="position: relative; display: inline-block">
         <!-- smaller red container div -->
         <div style="position: absolute; 
@@ -71,13 +74,21 @@
         <canvas>        </canvas>
         
     </div>
-    
+
+    <button class="buttonLeft" id="buttonLeft"><--</button>
+    <button class="buttonRight" id="buttonRight"> --></button>
+    <button class="buttonUp" id="buttonUp">Jump</button>
+    <button class="buttonAttack" id="buttonAttack">Attack</button>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" 
             integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" 
             crossorigin="anonymous" 
             referrerpolicy="no-referrer"></script>
 
-    <script src ='js/utils.js'></script>
-    <script src ='js/classes.js'></script>
-    <script src ='index.js'></script>
+    <script src='js/utils.js'></script>
+    <script src='js/classes.js'></script>
+    <script src='js/buttons.js'></script>
+    <script src='index.js'></script>
+    
+
 </body>

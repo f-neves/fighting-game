@@ -190,15 +190,13 @@ const player = new Fighter({
     //     framesMax: 8, 
     // },
     // },
-
 })
-
 
 const enemy = new Fighter({
     //martial artist
     width: 95,
     height: 100,
-    position: {x: 400,y: 100,},
+    position: {x: 800,y: 100,},
     velocity: { x: 0,y: 0},
     color: 'blue',    
     imageSrc: './img/martial01/Idle.png',
@@ -283,7 +281,7 @@ const enemy = new Fighter({
 },
 })
 
-console.log(player);
+// console.log(player);
 
 const keys = {
     a: {
@@ -439,10 +437,11 @@ function animate () {
 animate()
 
 window.addEventListener('keydown',(event)=> {
-    console.log(event.key)
+    // console.log(event.key)
     if (!player.dead){    
-        switch(event.key){
-            case 'd':
+
+			switch(event.key){
+				case 'd':
                 keys.d.pressed = true  
                 player.lastKey = 'd'          
                 break
@@ -480,7 +479,7 @@ window.addEventListener('keydown',(event)=> {
                 break    
             }
         }
-    console.log(event.key)
+    // console.log(event.key)
 }
 )
 window.addEventListener('keyup',(event)=> {
@@ -510,7 +509,7 @@ window.addEventListener('keyup',(event)=> {
                 break
             }
         
-    console.log(event.key)
+    // console.log(event.key)
 
 })
 

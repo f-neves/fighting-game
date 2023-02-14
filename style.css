@@ -1,0 +1,31 @@
+button {
+  position: absolute;
+  display: block;
+  color: black;
+  background-color: rgba(6, 6, 6, 0.4);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+#buttonLeft {
+  margin-top: -60px;
+  margin-left: 20px;
+}
+
+#buttonRight {
+  margin-top: -60px;
+  margin-left: 80px;
+}
+
+#buttonUp {
+  margin-top: -110px;
+  margin-left: 50px;
+}
+
+#buttonAttack {
+  margin-top: -110px;
+  margin-left: 110px;
+}
+
