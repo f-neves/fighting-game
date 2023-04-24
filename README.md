@@ -1,5 +1,2 @@
 # fighting-game
-# fighting-game
-# fighting-game
-# fighting-game
-# fighting-game
+# Kombat Mortal
